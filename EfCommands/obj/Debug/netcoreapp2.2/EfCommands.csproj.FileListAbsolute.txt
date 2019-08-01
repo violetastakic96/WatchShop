@@ -1,0 +1,16 @@
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\bin\Debug\netcoreapp2.2\EfCommands.deps.json
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\bin\Debug\netcoreapp2.2\EfCommands.dll
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\bin\Debug\netcoreapp2.2\EfCommands.pdb
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\bin\Debug\netcoreapp2.2\Business.dll
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\bin\Debug\netcoreapp2.2\Domain.dll
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\bin\Debug\netcoreapp2.2\EfDataAccess.dll
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\bin\Debug\netcoreapp2.2\Business.pdb
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\bin\Debug\netcoreapp2.2\EfDataAccess.pdb
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\bin\Debug\netcoreapp2.2\Domain.pdb
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\obj\Debug\netcoreapp2.2\EfCommands.csprojAssemblyReference.cache
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\obj\Debug\netcoreapp2.2\EfCommands.csproj.CoreCompileInputs.cache
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\obj\Debug\netcoreapp2.2\EfCommands.AssemblyInfoInputs.cache
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\obj\Debug\netcoreapp2.2\EfCommands.AssemblyInfo.cs
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\obj\Debug\netcoreapp2.2\EfCommands.csproj.CopyComplete
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\obj\Debug\netcoreapp2.2\EfCommands.dll
+C:\Users\Nemanja\source\repos\WatchShop\EfCommands\obj\Debug\netcoreapp2.2\EfCommands.pdb

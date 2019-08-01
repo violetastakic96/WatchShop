@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.BasketController.Get(Business.Queries.BasketQuery)">
+             <summary>
+             Shows all products in users basket
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Basket
+                 {
+                    "UserId": 1,
+                    "PerPage": 6,
+                    "PageNumber": 2
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:WebApi.Controllers.BasketController.Get(System.Int32)">
+            <summary>
+            Shows products that's in specific user basket
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.BasketController.Post(Business.DataTransferObjects.BasketDto)">
+            <summary>
+            Adds products to basket
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.BasketController.RemoveFromBasket(Business.DataTransferObjects.RemoveBasketDto)">
+            <summary>
+            Remove some product from basket
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.BasketController.Buy(System.Int32)">
+            <summary>
+            Buy products from basket
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.BrandController.Get(Business.Queries.BrandQuery)">
+             <summary>
+             Shows all brands
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Basket
+                 {
+                    "Name": "Fossil",
+                    "PerPage": 6,
+                    "PageNumber": 2
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:WebApi.Controllers.BrandController.Get(System.Int32)">
+            <summary>
+            Shows specific brand information
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.BrandController.Post(Business.DataTransferObjects.BrandDto)">
+            <summary>
+            Adds brand 
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.BrandController.Put(System.Int32,Business.DataTransferObjects.BrandDto)">
+            <summary>
+            Edits brand
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.BrandController.Delete(System.Int32)">
+            <summary>
+            Deletes brand
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.GenderController.Get(Business.Queries.GenderQuery)">
+             <summary>
+             Shows all genders
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Gender
+                 {
+                    "Name": "Male",
+                    "PerPage": 6,
+                    "PageNumber": 2
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:WebApi.Controllers.GenderController.Get(System.Int32)">
+            <summary>
+            Shows specific gender information
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.GenderController.Post(Business.DataTransferObjects.GenderDto)">
+            <summary>
+            Adds gender 
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.GenderController.Put(System.Int32,Business.DataTransferObjects.GenderDto)">
+            <summary>
+            Edits gender
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.GenderController.Delete(System.Int32)">
+            <summary>
+            Deletes gender
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.MechanismController.Get(Business.Queries.MechanismQuery)">
+             <summary>
+             Shows all mechanism
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Mechanism
+                 {
+                    "Name": "Automatic",
+                    "PerPage": 6,
+                    "PageNumber": 2
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:WebApi.Controllers.MechanismController.Get(System.Int32)">
+            <summary>
+            Shows specific mechanism information
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.MechanismController.Post(Business.DataTransferObjects.MechanismDto)">
+            <summary>
+            Adds mechanism 
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.MechanismController.Put(System.Int32,Business.DataTransferObjects.MechanismDto)">
+            <summary>
+            Edits mechanism
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.MechanismController.Delete(System.Int32)">
+            <summary>
+            Deletes mechanism
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.ProductController.Get(Business.Queries.ProductQuery)">
+             <summary>
+             Shows all products
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Product
+                 {
+                    "Name": "Product1",
+                    "MinPrice": 25,
+                    "MaxPrice": 50,
+                    "Waterproof": true,
+                    "IsAvailable": true,
+                    "MechanismId": 1,
+                    "GenderId": 2,
+                    "BrandId": 2,
+                    "PerPage": 6,
+                    "PageNumber": 2
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:WebApi.Controllers.ProductController.Get(System.Int32)">
+            <summary>
+            Shows specific product information
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.ProductController.Post(Business.DataTransferObjects.ProductDto)">
+            <summary>
+            Adds product 
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.ProductController.Put(System.Int32,Business.DataTransferObjects.ProductDto)">
+            <summary>
+            Edits product
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.ProductController.Delete(System.Int32)">
+            <summary>
+            Deletes product
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.ProductPhotoController.Get(Business.Queries.ProductPhotoQuery)">
+             <summary>
+             Shows all product photos
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /ProductPhoto
+                 {
+                    "ProductId": 1,
+                    "PerPage": 6,
+                    "PageNumber": 2
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:WebApi.Controllers.ProductPhotoController.Get(System.Int32)">
+            <summary>
+            Shows specific product photo information
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.ProductPhotoController.Post(WebApi.Models.FileRequest)">
+            <summary>
+            Adds product photo 
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.ProductPhotoController.Put(System.Int32,Business.DataTransferObjects.ProductPhotoDto)">
+            <summary>
+            Edits product photo
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.ProductPhotoController.Delete(System.Int32)">
+            <summary>
+            Deletes product photo
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.RoleController.Get(Business.Queries.RoleQuery)">
+             <summary>
+             Shows all role
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Role
+                 {
+                    "Name": "Administrator",
+                    "PerPage": 6,
+                    "PageNumber": 2
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:WebApi.Controllers.RoleController.Get(System.Int32)">
+            <summary>
+            Shows specific role information
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.RoleController.Post(Business.DataTransferObjects.RoleDto)">
+            <summary>
+            Adds role 
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.RoleController.Put(System.Int32,Business.DataTransferObjects.RoleDto)">
+            <summary>
+            Edits role
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.RoleController.Delete(System.Int32)">
+            <summary>
+            Deletes role
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.UserController.Get(Business.Queries.UserQuery)">
+             <summary>
+             Shows all users
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /User
+                 {
+                    "Email": "test@mail.com",
+                    "Username": "test123",
+                    "FirstName": "Pera",
+                    "LastName": "Peric",
+                    "PerPage": 6,
+                    "PageNumber": 2
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:WebApi.Controllers.UserController.Get(System.Int32)">
+            <summary>
+            Shows specific user information
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.UserController.Post(Business.DataTransferObjects.UserDto)">
+            <summary>
+            Adds user 
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.UserController.Put(System.Int32,Business.DataTransferObjects.UserDto)">
+            <summary>
+            Edits user
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Deletes user
+            </summary>
+        </member>
+    </members>
+</doc>

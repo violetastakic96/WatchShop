@@ -1,0 +1,9 @@
+C:\Users\Nemanja\source\repos\WatchShop\Business\bin\Debug\netcoreapp2.2\Business.deps.json
+C:\Users\Nemanja\source\repos\WatchShop\Business\bin\Debug\netcoreapp2.2\Business.dll
+C:\Users\Nemanja\source\repos\WatchShop\Business\bin\Debug\netcoreapp2.2\Business.pdb
+C:\Users\Nemanja\source\repos\WatchShop\Business\obj\Debug\netcoreapp2.2\Business.csprojAssemblyReference.cache
+C:\Users\Nemanja\source\repos\WatchShop\Business\obj\Debug\netcoreapp2.2\Business.csproj.CoreCompileInputs.cache
+C:\Users\Nemanja\source\repos\WatchShop\Business\obj\Debug\netcoreapp2.2\Business.AssemblyInfoInputs.cache
+C:\Users\Nemanja\source\repos\WatchShop\Business\obj\Debug\netcoreapp2.2\Business.AssemblyInfo.cs
+C:\Users\Nemanja\source\repos\WatchShop\Business\obj\Debug\netcoreapp2.2\Business.dll
+C:\Users\Nemanja\source\repos\WatchShop\Business\obj\Debug\netcoreapp2.2\Business.pdb
